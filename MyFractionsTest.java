@@ -45,7 +45,7 @@ public class MyFractionsTest {
 	}
 
 	@Test
-	public void gcd1Add() {
+	public void testGCD1Add() {
 		Fraction one = new Fraction (1,3);
 		Fraction two = new Fraction (1,5);
 		Fraction result = MyFractions.addSub(one,two,true);
@@ -54,7 +54,7 @@ public class MyFractionsTest {
 	}
 
 	@Test
-	public void gcd1Sub() {
+	public void testGCD1Sub() {
 		Fraction one = new Fraction (1,3);
 		Fraction two = new Fraction (1,5);
 		Fraction result = MyFractions.addSub(one,two,false);
@@ -63,7 +63,7 @@ public class MyFractionsTest {
 	}
 
 	@Test
-	public void gcdNot1Add() {
+	public void testGCDNot1Add() {
 		Fraction one = new Fraction (3,4);
 		Fraction two = new Fraction (5, 6);
 		Fraction result = MyFractions.addSub(one,two,true);
@@ -72,7 +72,7 @@ public class MyFractionsTest {
 	}
 
 	@Test
-	public void gcdNot1Sub() {
+	public void testGCDNot1Sub() {
 		Fraction one = new Fraction (3,4);
 		Fraction two = new Fraction (5, 6);
 		Fraction result = MyFractions.addSub(one,two,false);
