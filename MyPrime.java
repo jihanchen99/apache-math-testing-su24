@@ -23,7 +23,7 @@ public class MyPrime {
         }
         n |= 1;//make sure n is odd
         if (n == 1) { 
-            return 1;
+            return 2;
         }
 
         if (isPrime(n)) {

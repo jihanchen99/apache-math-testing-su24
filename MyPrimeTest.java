@@ -5,6 +5,10 @@ import org.apache.commons.math3.exception.NullArgumentException;
 import org.junit.Test;
 
 public class MyPrimeTest {
+	@Test
+	public void test2() {
+		assertEquals(2, MyPrime.nextPrime(1));
+	}
 
 	@Test(expected=IllegalArgumentException.class)
 	public void testNegativeInput() {
@@ -19,7 +23,7 @@ public class MyPrimeTest {
 
 	@Test
 	public void testInput0() {
-		assertEquals(1, MyPrime.nextPrime(0));
+		assertEquals(2, MyPrime.nextPrime(0));
 	}
 
 	@Test
